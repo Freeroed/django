@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'infoSystem.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'Info_System',
+        'USER' : 'postgres',
+        'PASSWORD' : '12021',
+        'HOST' : '127.0.0.1',
+        'PORT' : '5432',
     }
 }
 
