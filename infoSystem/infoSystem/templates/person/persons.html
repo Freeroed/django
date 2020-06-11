@@ -8,6 +8,11 @@
         <h3>
             {{name}} : {{age}}
         </h3>
+        <div>
+            <form action="{% url 'persons:create_page' %}" method="GET">
+                <button type="submit"  class="btn btn-primary">Добавить человека</button>
+            </form>
+        </div>
     </div>
     <div>
         {% if persons %}
