@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn infoSystem.wsgi
+web: gunicorn homeDatabase.wsgi
