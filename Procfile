@@ -1,2 +1,2 @@
-release: python infoSystem/manage.py migrate
-web: gunicorn infoSystem.infoSystem.wsgi
+release: python manage.py migrate
+web: gunicorn infoSystem.wsgi
