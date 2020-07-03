@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'infoSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'info_system',
-        'USER' : 'postgres',
-        'PASSWORD' : '12021',
-        'HOST' : '127.0.0.1',
+        'NAME': 'd1sabuh1jhefhi',
+        'USER' : 'ummzgwhsagpyai',
+        'PASSWORD' : '1e67ed11baa65105665691cd4d4d54845d075486c84e91665e240e5813300f8c',
+        'HOST' : 'ec2-54-247-79-178.eu-west-1.compute.amazonaws.com',
         'PORT' : '5432',    
     }
 }
