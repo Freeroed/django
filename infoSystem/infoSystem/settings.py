@@ -27,7 +27,7 @@ SECRET_KEY = 'y^hl8&c4$90@2%arg_jka+wir(4!u4#lp69o#42cv^9tf&y^=f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.0.0.108', 'localhost']
+ALLOWED_HOSTS = ['10.0.0.108', 'localhost', 'info-system-new.herokuapp.com']
 
 
 # Application definition
@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'infoSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'Info_System',
-        'USER' : 'postgres',
-        'PASSWORD' : '12021',
-        'HOST' : '127.0.0.1',
+        'NAME': 'ddebat979ar2l3',
+        'USER' : 'otlxtwynzuyvdj',
+        'PASSWORD' : 'edf9f5f2490aa420b7630454bf3e41cb450dd3f2969def88645eb49fd220564f',
+        'HOST' : 'ec2-54-246-87-132.eu-west-1.compute.amazonaws.com',
         'PORT' : '5432',
     }
 }
