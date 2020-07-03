@@ -22,7 +22,7 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, 'apps'))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'y^hl8&c4$90@2%arg_jka+wir(4!u4#lp69o#42cv^9tf&y^=f'
+SECRET_KEY = 'b(611%((tgz&e$f#9lhil*auy$r#78tk@j3pg2-a2*pv!$)9j1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -33,7 +33,7 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'person.apps.PersonConfig',
+    'persons.apps.PersonsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -66,7 +65,6 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'django.template.context_processors.request',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
@@ -85,11 +83,11 @@ WSGI_APPLICATION = 'infoSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddebat979ar2l3',
-        'USER' : 'otlxtwynzuyvdj',
-        'PASSWORD' : 'edf9f5f2490aa420b7630454bf3e41cb450dd3f2969def88645eb49fd220564f',
-        'HOST' : 'ec2-54-246-87-132.eu-west-1.compute.amazonaws.com',
-        'PORT' : '5432',
+        'NAME': 'info_system',
+        'USER' : 'postgres',
+        'PASSWORD' : '12021',
+        'HOST' : '127.0.0.1',
+        'PORT' : '5432',    
     }
 }
 
